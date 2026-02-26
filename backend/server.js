@@ -12,7 +12,7 @@ const ssm = new SSMClient({ region: REGION });
 
 let db;
 
-/* ------------------ FETCH DB CONFIG FROM SSM ------------------ */
+/* ------------------ FETCH DB CONFIG FROM SSMs ------------------ */
 
 async function getDBConfig() {
   const command = new GetParametersCommand({
