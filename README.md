@@ -1,5 +1,6 @@
 # Three-Tier Application Deployment using Docker & Docker Compose
 
+
 ![Architecture](assets/Infra.gif)
 
 This repository demonstrates the deployment of a three-tier application using Docker, focusing on individual Dockerfiles for each component. The application comprises a MySQL database, a Node.js backend, and a React.js frontend.
@@ -68,16 +69,8 @@ Before you begin, ensure that you have the following installed:
 
    Open your favorite browser and visit [http://localhost:80](http://localhost:80). Enjoy exploring the MERN stack application!
 
-## Attribution & Acknowledgment
-
-For Application Source Code, special thanks to Aman Pathak.
-
 ## Data Persistence
 
 Data persistence is ensured by using Docker volumes. If the MySQL container is deleted, data remains available and is automatically added to a new Docker container by providing the same Docker volume.
 
 Feel free to explore and modify the Dockerfiles to enhance your understanding of containerization and deployment! Happy coding! 🚀
-
-## Project Summary
-
-

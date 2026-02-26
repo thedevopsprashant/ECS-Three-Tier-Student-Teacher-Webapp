@@ -58,6 +58,18 @@ export default function Footer() {
         />
       ),
     },
+    {
+      name: "Medium",
+      href: "https://medium.com/",
+      svg: (
+        <path
+          fill="currentColor"
+          d="M0 3v18h24V3H0zm6.7 12.1V8.4l5.3 
+             3.9-5.3 2.8zm7.3.1l-5.9-3.4 5.9-4.2v7.6zm2 
+             .2V8.2l4 3.1-4 4.1z"
+        />
+      ),
+    },
   ];
 
   return (
